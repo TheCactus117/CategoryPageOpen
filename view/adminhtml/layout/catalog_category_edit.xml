@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="page.actions.toolbar">
+            <block class="TheCactus117\CategoryPageOpen\Block\Adminhtml\OpenCategoryPageButton" name="open_category_page_button" />
+        </referenceBlock>
+    </body>
+</page>
