@@ -77,7 +77,8 @@ class OpenCategoryPageButton extends Container
     {
         $category = $this->getCategory();
         if ($category &&
-            $category->getIsActive()) {
+            $category->getIsActive() &&
+            $category->getLevel() !== 1) {
             try {
                 $categoryUrl = $this->getCategoryUrl($category);
                 $this->addButton(
